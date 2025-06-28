@@ -1,0 +1,51 @@
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #333;
+}
+
+nav a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #0077cc;
+}
+
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #0077cc;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+}
+
+main {
+    margin-top: 20px;
+}

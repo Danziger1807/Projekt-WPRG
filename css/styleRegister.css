@@ -1,0 +1,83 @@
+.checkbox-label {
+  display: block;
+  margin-top: 12px;
+  font-size: 14px;
+  color: #333;
+}
+
+.checkbox-label input {
+  margin-right: 6px;
+}
+body {
+  background: #ffeaea;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.form-container {
+  background: #fff;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  animation: fadeInUp 1s ease-out;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.form-container h2 {
+  color: #ea3b3b;
+  margin-bottom: 24px;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form-container input {
+  padding: 14px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.form-container p {
+  margin-top: 16px;
+  font-size: 14px;
+}
+
+.form-container a {
+  color: #ea3b3b;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn {
+  padding: 14px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: transform 0.2s;
+}
+
+.btn-red {
+  background: #ea3b3b;
+  color: white;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+}
+
+@keyframes fadeInUp {
+  from { transform: translateY(30px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
